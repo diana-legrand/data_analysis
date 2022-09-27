@@ -1,5 +1,7 @@
 # Прогнозирование оттока клиентов
 
+Из-за большого объема файла и сообщения ("The notebook took too long to render"), рекомендуется смотреть проект через nbviewer по [ссылке] (https://nbviewer.org/github/diana-legrand/data_analysis/blob/main/churn_prediction_using_ml/churn_prediction_using_ml.ipynb "Необязательная подсказка").
+
 
 ## Цель
 
