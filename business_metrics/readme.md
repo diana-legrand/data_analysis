@@ -11,7 +11,6 @@
 
 ## Используемые библиотеки:
 - *pandas*
-- *random*
 - *datetime*
 - *matplotlib*
 - *seaborn*
