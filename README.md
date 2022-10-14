@@ -4,8 +4,8 @@
 | Название проекта | Описание | Используемые библиотеки | 
 | :---------------------- | :---------------------- | :---------------------- |
 | [Анализ бизнес-показателей](business_metrics) | На основе данных о посетителях сайта и их действиях проведен анализ бизнес-метрик, таких как LTV, ROI, CAC, проведен анализ окупаемости маркетинга| *Pandas*, *Matplotlib*, *NumPy*, *SciPy*, *Seaborn*|
-| [Проект по А/B-тестированию](https://nbviewer.org/github/diana-legrand/data_analysis/blob/main/ab_test_marketing/ab_test_marketing.ipynb) | Используя данные интернет-магазина, был проведен анализ результатов А/B теста, а также оценена корректность его провдения| *Pandas*,  *NumPy*, *SciPy*, *Matplotlib*, *Plotly*, *Seaborn*|
-| [Прогнозирование оттока пользователей](https://nbviewer.org/github/diana-legrand/data_analysis/blob/main/churn_prediction_using_ml/churn_prediction_using_ml.ipynb) | Модель обучена с помощью логистической регрессии и случайного леса, также составлены кластеры клиентов| *Pandas*, *NumPy*, *IterTools*, *Re*, *Scikit-learn*, *Matplotlib*, *Seaborn*|
+| [Проект по А/B-тестированию](ab_test_marketing) | Используя данные интернет-магазина, был проведен анализ результатов А/B теста, а также оценена корректность его провдения| *Pandas*,  *NumPy*, *SciPy*, *Matplotlib*, *Plotly*, *Seaborn*|
+| [Прогнозирование оттока пользователей](churn_prediction_using_ml) | Модель обучена с помощью логистической регрессии и случайного леса, также составлены кластеры клиентов| *Pandas*, *NumPy*, *IterTools*, *Re*, *Scikit-learn*, *Matplotlib*, *Seaborn*|
 | [Проект по SQL](sql_project) | С помощью SQL-запросов к базе данных получены необходимые данные для анализа  рынка. Сформулировано новое ценностное предожения для интернет-магазина|  *SQL*, *SQLalchemy*, *Pandas*|
 | [Сегментация клиентов](clients_segmentation) | Выделены кластеры клиентов на основе особенностей потребления продуктов с целью дифференцирования маркетинговой стратегии. Проверены гипотезы о связи доходов, активностью потребления и оттоком| *Pandas*, *NumPy*, *Scipy*, *IterTools*, *Re*, *Scikit-learn*, *Statsmodels*, *Matplotlib*, *Seaborn*|
  
