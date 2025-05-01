@@ -20,8 +20,10 @@ The project involved a full-cycle data science workflow:
 **Feature Engineering & Correlation Analysis**. Key drivers of churn were identified, such as contract length, visit frequency, and customer lifetime. Irrelevant or weakly correlated features (e.g., gender, phone availability) were removed or deprioritized.
 
 **Model Development**. Two classification algorithms were implemented:
-    - **Logistic Regression**. Delivered high interpretability and solid performance.
-    - **Random Forest**. Captured non-linear relationships and interactions.
+
+- **Logistic Regression**. Delivered high interpretability and solid performance.
+- **Random Forest**. Captured non-linear relationships and interactions.
+    
 The logistic regression model was selected as the final model due to its slightly better accuracy and transparency in explaining business decisions.
 
 **Customer Segmentation via Clustering**. Clients were grouped into five distinct segments using hierarchical and KMeans clustering. Each cluster was profiled, and actionable recommendations were created for the marketing team to reduce churn by tailoring engagement strategies.
