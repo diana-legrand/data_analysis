@@ -1,23 +1,19 @@
-# Сегментирование клиентов по потреблению
+### 📌 Customer Segmentation by Product Usage
 
-## Цель
+**🎯 Goal**  
+To identify meaningful customer segments based on product usage and provide actionable recommendations to improve loyalty among banking clients.
 
-На основе выделения сегментов клиентов разработать рекомендации по повышению лояльности банковских клиентов.
+**🧠 Overview**  
+In this project, I used multiple clustering methods to segment bank customers and build detailed customer profiles. The analysis revealed several key insights:
 
-## Вывод
+- There’s no significant difference in average income between customers using one or two products.  
+- However, churn rates differ significantly — customers with **only one product** are less likely to churn.  
+- Clients with **three products** show the highest churn rate, suggesting potential dissatisfaction.  
+- This may indicate that the bank offers one or two strong products (e.g., debit or credit cards), while additional offerings may not meet user expectations.
 
-Построены сегменты клиентов банка несколькими способами и описаны портреты клиентов с их особенностями. Проверка гипотез показала следующее: средний доход клиентов с 1 и 2 продуктами не отличается,
-есть статистические значимые отличия между оттоком клиентов с 1 продуктом и несколькими продуктами. Отток пользователей с 1-м продуктом ниже. Клиенты с 3-мя продуктами подвержены высокому оттоку. Возможно, у банка есть 1-2 хороших продукта (например, дебетовые/ кредитные карты), остальные продукты пользователям не нравятся.  В исследовании также разработаны рекомендации для бизнеса.
+Based on these findings, I developed tailored recommendations to help the bank reduce churn and refine its product strategy.
 
-## Используемые библиотеки:
-- *pandas*
-- *numpy*
-- *skypy*
-- *itertools*
-- *re*
-- *sklearn*
-- *matplotlib*
-- *seaborn*
+**🧰 Tools & Libraries**  
+`pandas`, `numpy`, `scipy`, `itertools`, `re`, `scikit-learn`, `matplotlib`, `seaborn`
 
-
-## Статус: Проект завершён.
+**📌 Status**: Completed ✅
