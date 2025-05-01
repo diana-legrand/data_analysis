@@ -14,6 +14,7 @@ This analysis focused on identifying the key factors contributing to customer ch
 ## Project Overview
 
 The project involved a full-cycle data science workflow:
+
 **Exploratory Data Analysis (EDA)**. We examined behavioral, demographic, and contract-related data to understand usage patterns and identify early warning signs of churn.
 
 **Feature Engineering & Correlation Analysis**. Key drivers of churn were identified, such as contract length, visit frequency, and customer lifetime. Irrelevant or weakly correlated features (e.g., gender, phone availability) were removed or deprioritized.
@@ -27,9 +28,9 @@ The logistic regression model was selected as the final model due to its slightl
 
 ## Key Insights
 
--Younger customers and those with short-term contracts are more likely to churn.
--Frequent visits, participation in group classes, and higher spending on additional services are strongly associated with customer retention.
--Customers referred through promotions or affiliated with partner companies show greater loyalty.
+- Younger customers and those with short-term contracts are more likely to churn.
+- Frequent visits, participation in group classes, and higher spending on additional services are strongly associated with customer retention.
+- Customers referred through promotions or affiliated with partner companies show greater loyalty.
 
 ## Libraries Used:
 - *pandas*
