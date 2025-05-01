@@ -1,11 +1,14 @@
-# Репозиторий проектов по аналитике данных
+# Data Analytics Projects Portfolio
 
-В этом репозитории находятся мои выполненные  проектные работы по анализу данных.
+Welcome to my data analytics project portfolio. This repository showcases a collection of analytical projects that leverage real-world data to solve business problems through statistical analysis, machine learning, and data visualization. Each project is designed to generate actionable insights using tools such as Python, SQL, and leading data science libraries.
+
+# 🔍 Projects Highlights
+
 | Название проекта | Описание | Используемые библиотеки | 
 | :---------------------- | :---------------------- | :---------------------- |
-| [Анализ бизнес-показателей](business_metrics) | На основе данных о посетителях сайта и их действиях проведен анализ бизнес-метрик, таких как LTV, ROI, CAC, проведен анализ окупаемости маркетинга| *Pandas*, *Matplotlib*, *NumPy*, *SciPy*, *Seaborn*|
-| [Проект по А/B-тестированию](ab_test_marketing) | Используя данные интернет-магазина, был проведен анализ результатов А/B теста, а также оценена корректность его провдения| *Pandas*,  *NumPy*, *SciPy*, *Matplotlib*, *Plotly*, *Seaborn*|
-| [Прогнозирование оттока пользователей](churn_prediction_using_ml) | Модель обучена с помощью логистической регрессии и случайного леса, также составлены кластеры клиентов| *Pandas*, *NumPy*, *IterTools*, *Re*, *Scikit-learn*, *Matplotlib*, *Seaborn*|
-| [Проект по SQL](sql_project) | С помощью SQL-запросов к базе данных получены необходимые данные для анализа  рынка. Сформулировано новое ценностное предожения для интернет-магазина|  *SQL*, *SQLalchemy*, *Pandas*|
-| [Сегментация клиентов](clients_segmentation) | Выделены кластеры клиентов на основе особенностей потребления продуктов с целью дифференцирования маркетинговой стратегии. Проверены гипотезы о связи доходов, активностью потребления и оттоком| *Pandas*, *NumPy*, *Scipy*, *IterTools*, *Re*, *Scikit-learn*, *Statsmodels*, *Matplotlib*, *Seaborn*|
+| [Business Performance Analysis](business_metrics) | Conducted a comprehensive analysis of key business metrics, including LTV, ROI, and CAC, based on website visitor behavior. Assessed the marketing payback period.| *Pandas*, *Matplotlib*, *NumPy*, *SciPy*, *Seaborn*|
+| [A/B Test Evaluation](ab_test_marketing) | Analyzed the results of an A/B test for an e-commerce platform, validating its design and statistical significance.| *Pandas*,  *NumPy*, *SciPy*, *Matplotlib*, *Plotly*, *Seaborn*|
+| [Churn Prediction Model](churn_prediction_using_ml) | Built and evaluated models using logistic regression and random forest to predict customer churn. Performed customer segmentation through clustering techniques.| *Pandas*, *NumPy*, *IterTools*, *Re*, *Scikit-learn*, *Matplotlib*, *Seaborn*|
+| [SQL-Based Market Analysis](sql_project) | Extracted and analyzed data from a relational database to identify market trends. Developed a new value proposition for an online store based on insights.|  *SQL*, *SQLalchemy*, *Pandas*|
+| [Customer Segmentation](clients_segmentation) | 	Identified customer segments based on product usage behavior to tailor marketing strategies. Tested hypotheses linking income, engagement, and churn.| `Pandas`, `NumPy`, `Scikit-learn`, `Statsmodels`, `Matplotlib`, `Seaborn`, `SciPy`, `IterTools`, `Re`|
  
