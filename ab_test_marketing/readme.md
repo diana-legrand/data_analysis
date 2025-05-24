@@ -1,18 +1,17 @@
-# Проект по А/B-тестированию
+# A/B Testing Project
 
-Так как github не отображает визуализацию в plotly, рекомендуется смотреть проект через nbviewer по [ссылке](https://nbviewer.org/github/diana-legrand/data_analysis/blob/main/ab_test_marketing/ab_test_marketing.ipynb).
+Note: Since GitHub does not render Plotly visualizations properly, it is recommended to view the project via [nbviewer](https://nbviewer.org/github/diana-legrand/data_analysis/blob/main/ab_test_marketing/ab_test_marketing.ipynb).
 
-## Цель
+## Objective
 
-Провести оценку результатов A/B-теста на основе данных с действиями пользователей, технического задания и нескольких вспомогательных датасетов. Необходимо также оценить корректность проведения теста. С целью оценки корректности проведения теста
-Чтобы оценить корректность проведения теста, необходимо проверить пересечение тестовой аудитории с конкурирующим тестом, совпадение теста и маркетинговых событий, другие проблемы временных границ теста.
+The goal of this project was to evaluate the results of an A/B test using user behavior data, the provided technical brief, and several supporting datasets. In addition to analyzing the test outcomes, it was essential to assess the test’s integrity.
+This involved checking for: audience overlap with other concurrent tests, alignment of the test period with marketing campaigns, and potential issues related to the test’s timing boundaries.
 
-## Вывод
+## Conclusion
 
-Результаты А/В тестирования показали, что по всем событиям воронки есть статистически значимая разница между конверсиями в группах. Но ожидаемый результат не был достигнут, так как показатели конверсии не улучшились, а ухудшились.
-В итоге тест шел 23 дня вместо 28 дней, было 5099 пользователей вместо 6000. Скорее всего, доверять результатам в полной мере нельзя.
+The A/B test revealed statistically significant differences in conversion rates between the control and test groups across all funnel events. However, the expected improvements were not observed—in fact, conversion metrics declined. Moreover, the test was shortened to 23 days instead of the planned 28, and only 5,099 users participated out of the intended 6,000. These deviations suggest that the results may not be fully reliable.
 
-## Используемые библиотеки:
+## Tools & Libraries Used
 - *pandas*
 - *matplotlib*
 - *seaborn*
@@ -20,4 +19,4 @@
 - *numpy*
 - *stats*
 
-## Статус: Проект завершён.
+## Project Status: Completed.
