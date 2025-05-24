@@ -1,15 +1,17 @@
-# Анализ бизнес-метрик
+# Business Metrics Analysis
 
 
-## Цель
+## Objective
 
-Оценить окупаемость маркетинговых затрат, выявить причины неокупаемости маркетинга, разработать рекомендации для маркетологов для оптимизации рекламного бюджета.
+To evaluate the return on marketing investment, identify the reasons behind underperformance, and develop actionable recommendations to help marketers optimize the advertising budget.
 
 ## Вывод
 
-Найдена основная причина неэффективности маркетинга, а именно: вкладывание бюджета в неэффективный канал, приносящий не так много платящих пользователей, при этом с увеличивающимся показателем CAC (Customer Acquisition Cost, стоимость привлечения одного клиента). Для отдела маркетинга необходимо перераспредить бюджет между каналами, срезать бюджет по каналам с недостаточным ROI (Return On Investment, окупаемость инвестиций). Увеличить бюджет на рекламные каналы с высоким ROI, применить геотаргетинг и активнее рекламировать продукт среди пользователей Германии, Франции, Великобратинии, активнее привлекать пользователей PC - у них выше удержание.
+The primary driver of marketing inefficiency was identified as the overinvestment in a low-performing channel that generated relatively few paying users while exhibiting a rising Customer Acquisition Cost (CAC).
 
-## Используемые библиотеки:
+To improve overall marketing effectiveness, it is recommended that the marketing team: reallocate budget toward channels with stronger performance, reduce or eliminate spending on channels with insufficient Return on Investment (ROI), increase investment in high-ROI advertising channels, implement geo-targeting strategies, and intensify efforts to reach users in Germany, France, and the United Kingdom, as well as target desktop (PC) users who demonstrate higher retention rates.
+
+## Libraries Used:
 - *pandas*
 - *datetime*
 - *matplotlib*
@@ -17,4 +19,4 @@
 - *numpy*
 - *stats*
 
-## Статус: Проект завершён.
+## Project Status: Completed.
