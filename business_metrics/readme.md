@@ -5,7 +5,7 @@
 
 To evaluate the return on marketing investment, identify the reasons behind underperformance, and develop actionable recommendations to help marketers optimize the advertising budget.
 
-## Вывод
+## Summary
 
 The primary driver of marketing inefficiency was identified as the overinvestment in a low-performing channel that generated relatively few paying users while exhibiting a rising Customer Acquisition Cost (CAC).
 
